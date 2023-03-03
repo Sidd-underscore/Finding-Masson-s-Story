@@ -1,0 +1,74 @@
+@font-face {
+     font-family: "Essays 1789";
+     src: url("/fonts/Essays1743.ttf");
+}
+
+@font-face {
+     font-family: "Champagne";
+     src: url("/fonts/Champagne.ttf");
+}
+
+ p {
+     font-size: 20px;
+     font-family: 'Essays 1789';
+}
+ p, em {
+     filter: none !important;
+}
+ body {
+     background-size: cover;
+     background-repeat: repeat-y;
+     background-image: url(/images/bg.avif);
+}
+
+ h1 {
+     font-family: 'Essays 1789';
+     font-size: 7rem;
+     font-weight: 100;
+}
+
+ .List {
+     display: block;
+     margin-top: 15px;
+     margin-bottom: 10px;
+}
+ .Intro p {
+     display: block;
+     height: 40%;
+     margin-top: 25px;
+}
+ .document {
+     padding-left: 10%;
+     margin-top: 10px;
+     padding-right: 10%;
+}
+ em:not(p em) {
+     font-family: 'Essays 1789';
+     font-size: smaller;
+}
+ .Container {
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     justify-content: center;
+}
+ .Containertwo {
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     justify-content: center;
+}
+
+ p, em, .List {
+     filter: none !important;
+}
+
+uhoh {
+	color: rgba(0, 0, 0, .5);
+}
+
+.Signed {
+	font-size: 5rem;
+	font-style: italic;
+	font-family: 'Champagne';
+}
